@@ -1,11 +1,11 @@
-# Install instructions
+# Clinical Data Repository and Trust Integration Engine 
 
-## Clinical Data Repository and Trust Integration Engine 
+## Install instructions
 
 (Intersystems IRIS Data Platform including FHIR Repository)
 FHIR Repository [Intersystems Open Exchange - iris-fhir-template](https://openexchange.intersystems.com/package/iris-fhir-template)
 
-Useful links 
+## Useful links 
 
 Username: _System 
 Password: SYS
@@ -21,8 +21,13 @@ FROM HSFHIR_X0001_S.Observation
 where patient = 'Patient/6' and code [ '38483-4';
 ````
 
+## Development
 
-### Intersystems + FHIR python packages
+### Visual Studio 
+
+https://docs.intersystems.com/components/csp/docbook/DocBook.UI.Page.cls?KEY=GVSCO_intro
+
+### Python - Intersystems + FHIR packages
 
 `pip install intersystems-irispython`
 
@@ -32,7 +37,7 @@ where patient = 'Patient/6' and code [ '38483-4';
 
 
 
-### Notes
+## Notes
 
 ####  Patient Data Fix
 
